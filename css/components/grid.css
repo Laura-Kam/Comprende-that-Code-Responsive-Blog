@@ -4,5 +4,5 @@
 gap: 2em;
 margin: 0 auto; 
   border: 2px solid green;
-  padding: var(--space-lg) var(--space-md) var(--space-lg) var(--space-md);
+  padding: var(--space-xl) var(--space-md) var(--space-xxl) var(--space-md);
 }
