@@ -83,8 +83,9 @@ a {
   }
 /* 
   main page container all pages */
-.page-container{
+#page-container{
     width: 100%;               /* Full width on mobile */
-    max-width: 414px;   /* No more than 414px wide */
+    min-height: 25vh; 
+    margin: 0 auto;;
 }
   
