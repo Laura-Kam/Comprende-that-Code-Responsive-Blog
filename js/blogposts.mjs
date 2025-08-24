@@ -24,7 +24,7 @@ export const blogPosts = [
     date: "July 25, 2025",
     excerpt:
       "How I stopped chasing rigid goals and started looping my way to growth.",
-    image: "./images/coding-frustration.png",
+    image: "../assets/images/coding-frustration.png",
     alt: "A frustrated person at a laptop, holding a tense expression. A smartphone and a mug sit beside them",
     content: `Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. 
     Tempus leo eu aenean sed diam urna tempor. 
@@ -43,7 +43,7 @@ export const blogPosts = [
     title: "Is Scrimba The Best Online Coding Platform?",
     date: "July 23, 2025",
     excerpt: "I wanted to find out for myself if it was worth the hype.",
-    image: "./images/scrimba-post.png",
+    image: "../assets/images/scrimba-post.png",
     alt: "Scrimba post preview image",
     content: `Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. 
     Tempus leo eu aenean sed diam urna tempor. 
