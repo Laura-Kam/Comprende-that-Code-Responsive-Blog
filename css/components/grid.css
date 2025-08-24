@@ -1,0 +1,8 @@
+.grid{
+    display: grid;
+    grid-template-columns: 1fr;
+gap: 2em;
+margin: 0 auto;
+max-width: 374px; 
+  border: 2px solid green;
+}

@@ -86,5 +86,6 @@ a {
 .page-container{
     width: 100%;               /* Full width on mobile */
     max-width: 414px;   /* No more than 414px wide */
+    border: 2px solid red;
 }
   
