@@ -1,0 +1,29 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: var(--gap-sm);
+    border-bottom: 0.5px solid var(--color-grey-divider);
+    padding-bottom: var(--space-md)
+    }
+
+    .card__image{
+        width: 100%;
+        aspect-ratio: 1.5 / 1;
+
+        background-size: cover;
+        background-position: center;
+ 
+        }
+
+        .card__info{
+            display: flex;
+            flex-direction: column;
+   
+        }
+        
+        
+        .card__date{
+            color: var(--color-grey-medium);
+            font-size: var(--fs-xs);
+        }
