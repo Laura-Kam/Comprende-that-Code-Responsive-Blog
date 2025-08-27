@@ -75,6 +75,10 @@ h1, h2, h3, h4, h5, h6 {
   h3 { font-size: var(--fs-lg); font-weight: 500; }
   h4, h5, h6 { font-size: var(--fs-base); font-weight: 400; }
 
+  .read-more__link {
+      margin-left: var(--space-sm);
+      font-size: var(--fs-md);
+  }
 /* Links */
 a {
     text-decoration: none;

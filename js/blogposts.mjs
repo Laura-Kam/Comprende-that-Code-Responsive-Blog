@@ -6,6 +6,12 @@ export const blogPosts = [
     excerpt: "Flex-box, grid image sets...making sense of it all.",
     image: "../assets/images/laptop-tablet-mobile-screens.svg",
     alt: "A desk with a laptop, pink desk lamp, plant, notebook, and tablet. It shows the importance of having responsive web pages for different screens.",
+    subheading1: "What I knew",
+    paragraph1: "BLALALALALLALALAL",
+    subheading2: "What I knew",
+    paragraph2: "BLALALALALLALALAL",
+    subheading3: "What I knew",
+    paragraph3: "BLALALALALLALALAL",
     content: `Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. 
     Tempus leo eu aenean sed diam urna tempor. 
     Pulvinar vivamus fringilla 
