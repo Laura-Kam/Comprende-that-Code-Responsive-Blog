@@ -1,0 +1,17 @@
+@media (min-width: 992px) {
+    .grid{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .article-grid{
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    .article-grid > * {
+        width: 80%; 
+        max-width: 650px;
+      }
+    .article__image{
+        max-width: 600px;
+    }
+}

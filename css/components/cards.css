@@ -4,15 +4,16 @@
     justify-content: flex-start;
     gap: var(--gap-sm);
     border-bottom: 0.5px solid var(--color-grey-divider);
-    padding-bottom: var(--space-md)
+    padding-bottom: var(--space-md);
     }
 
     .card__image{
-        width: 100%;
+        width: 85%;
         aspect-ratio: 1.5 / 1;
-
+margin: 0 auto;
         background-size: cover;
         background-position: center;
+        border-radius: 10px;
  
         }
 
