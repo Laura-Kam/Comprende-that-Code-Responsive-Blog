@@ -4,7 +4,7 @@ import { blogPosts, mainPost } from "./blogposts.mjs";
 document.getElementById("header-placeholder").innerHTML = loadHeader();
 document.getElementById("footer-placeholder").innerHTML = loadFooter();
 
-const fullArticleContainer = document.querySelector(".grid");
+const fullArticleContainer = document.querySelector(".article-grid");
 
 //find query string
 const params = new URLSearchParams(window.location.search);
