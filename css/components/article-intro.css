@@ -1,0 +1,25 @@
+.article-intro-section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;  
+margin: 0 auto;
+  min-height: 25vh;
+   justify-content: center;
+   gap:var(--space-sm)
+}
+
+.article-date-title-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 90%;
+}
+
+.article__title {
+    font-size: var(--fs-xxl);
+    color: var(--color-primary);
+}
+
+.article__date {
+    color: var(--color-grey-medium);
+}

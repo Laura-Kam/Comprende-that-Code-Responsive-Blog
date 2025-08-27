@@ -1,0 +1,13 @@
+.grid{
+    gap: var(--space-lg);
+}
+
+.article__image{
+    width: 100%;
+}
+
+.article-main-content{
+   gap: 1em;
+   display: flex;
+   flex-direction: column;
+}
