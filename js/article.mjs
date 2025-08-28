@@ -22,7 +22,14 @@ if (blogId === mainPost[0].id) {
 
 if (blog) {
   fullArticleContainer.innerHTML = `
+  
   <section class="article-intro-section">
+  <div class="back-link-container">
+  <a class="home-link" href="../index.html">
+  <img class="home-link-img"src="../assets/images/back-arrow-grey.png" alt="Back"><span class="back-link-text">back</span>
+</a>
+</div>
+
   <header class="article__header">
     <p class="article__date">${blog.date}</p>
     <h1 class="article__title">${blog.title}</h1>

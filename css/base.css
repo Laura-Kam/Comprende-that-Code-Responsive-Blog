@@ -9,7 +9,7 @@
     /* Text and Backgrounds */
     --color-grey-light: #F5F5F5;   /* Backgrounds  */
     --color-grey-divider: #d5d6d6; /* Subtle dividers */
-    --color-grey-medium: #6C757D;  /* Secondary text */
+    --color-grey-medium: #5B6670;  /* Secondary text */
     --color-grey-dark: #212529;    /* Body text, Headings */
   
     /* Utility colours */
@@ -93,4 +93,26 @@ a {
     min-height: 25vh; 
     margin: 0 auto;;
 }
-  
+
+.home-link-img{
+  min-width: 44px;
+  height: auto;
+  width: var(--fs-sm);
+}
+
+.home-link {
+  display: flex;
+  align-items: center; 
+  gap: var(--space-sm); 
+  text-decoration: none; 
+}
+
+.back-link-text{
+  color: var(--color-grey-medium);
+}
+
+
+.back-link-text:hover{
+  color: var(--color-grey-dark);
+}
+
