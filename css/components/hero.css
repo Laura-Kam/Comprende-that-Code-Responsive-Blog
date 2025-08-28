@@ -3,14 +3,14 @@
     flex-direction: column;
     background: 
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('/assets/images/bear-sol-madrid.svg');
+    url('../../assets/images/sun.png');
     width: 100%;  
 margin: 0 auto;
-  min-height: 25vh;
+  min-height: 30vh;
     background-position: center;
     background-size: cover;
-   justify-content: flex-end;
-padding: var(--space-xl) var(--space-sm) var(--space-md) var(--space-sm);
+   justify-content: center;
+padding: var(--space-xl) var(--space-md) var(--space-md) var(--space-md);
 
  
 }

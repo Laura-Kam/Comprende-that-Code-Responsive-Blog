@@ -21,5 +21,6 @@ margin: 0 auto;
 }
 
 .article__date {
+    font-size: var(--fs-sm);
     color: var(--color-grey-medium);
 }

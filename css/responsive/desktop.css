@@ -14,4 +14,9 @@
     .article__image{
         max-width: 600px;
     }
+    .hero{
+        min-height: 40vh;
+        justify-content: center;
+        padding: var(--space-xl) var(--space-xxl) var(--space-md) var(--space-xxl);
+    }
 }
