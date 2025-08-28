@@ -10,9 +10,7 @@ margin: 0 auto;
     background-position: center;
     background-size: cover;
    justify-content: center;
-padding: var(--space-xl) var(--space-md) var(--space-md) var(--space-md);
-
- 
+padding: var(--space-xl) var(--space-md) var(--space-md) var(--space-md); 
 }
 
 .hero__text-container{
