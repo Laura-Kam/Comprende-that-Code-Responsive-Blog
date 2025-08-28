@@ -6,14 +6,14 @@
     gap: var(--space-lg);
 margin: 0 auto; 
   border: 2px solid green;
-  padding: var(--space-xl) var(--space-md) var(--space-xxl) var(--space-md);
+  padding: var(--space-xxl) var(--space-md) var(--space-xxl) var(--space-md);
 }
 
 .article__image{
     width: 100%;
 }
 
-.article-main-content{
+.article__main{
    gap: 1em;
    display: flex;
    flex-direction: column;

@@ -23,24 +23,24 @@ if (blogId === mainPost[0].id) {
 if (blog) {
   fullArticleContainer.innerHTML = `
   <section class="article-intro-section">
-  <div class="article-date-title-container">
+  <header class="article__header">
     <p class="article__date">${blog.date}</p>
     <h1 class="article__title">${blog.title}</h1>
-  </div>
-  <p class="article__extract">${blog.excerpt}</p>
+  </header>
+  <p class="article__excerpt">${blog.excerpt}</p>
   <img class="article__image" src="${blog.image}"/>
   </section>
 
-  <section class="article-main-content">
-  <div class="paragraph-section">
+  <section class="article__main">
+  <div class="article__paragraph-section">
 <h2 class="article__subheading">${blog.subheading1}</h2>
 <p lass="article__paragraph">${blog.paragraph1}</p>
 </div>
-<div class="paragraph-section">
+<div class="article__paragraph-section">
     <h2 class="article__subheading">${blog.subheading2}</h2>
-    <p lass="article__paragraph">${blog.paragraph2}</p>
+    <p class="article__paragraph">${blog.paragraph2}</p>
 </div>
-<div class="paragraph-section">
+<div class="article__paragraph-section">
 <h2 class="article__subheading">${blog.subheading3}</h2>
 <p lass="article__paragraph">${blog.paragraph3}</p>
 </div>
@@ -50,5 +50,5 @@ if (blog) {
 
     `;
 } else {
-  document.getElementById("article").innerHTML = `<p>Article not found.</p>`;
+  fullArticleContainer.innerHTML = `<p class="article-error">Article not found.</p>`;
 }
