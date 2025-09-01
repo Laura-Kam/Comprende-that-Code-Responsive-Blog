@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CodeComprendeBlog</title>
+    <!-- header font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- text font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Reset CSS first -->
+    <link rel="stylesheet" href="css/reset.css" />
+
+    <!-- Main default mobile-first styles -->
+    <link rel="stylesheet" href="css/base.css" />
+
+    <!-- Component styles -->
+    <link rel="stylesheet" href="css/./components/header.css" />
+    <link rel="stylesheet" href="css/./components/footer.css" />
+    <link rel="stylesheet" href="css/./components/grid.css" />
+    <link rel="stylesheet" href="css/./components/about.css" />
+    <!-- Responsive Media Queries Tablet -->
+    <link rel="stylesheet" href="css/./responsive/tablet.css" />
+    <!-- Responsive Media Queries Desktop -->
+    <link rel="stylesheet" href="css/./responsive/desktop.css" />
+  </head>
+  <body>
+    <!-- global header -->
+    <header id="header-placeholder"></header>
+    <!-- main content -->
+    <main id="about">
+      <article class="about-page-content">
+        <!-- intro section -->
+        <header class="about-me__intro">
+          <figure class="profile-img-container">
+            <img
+              class="profile-img"
+              src="././assets/images/blue-bg-laura-k-profile.png"
+            />
+          </figure>
+          <div class="about-me__intro-text">
+            <h1 class="about-page__heading">Hey I'm Laura</h1>
+            <p class="about-page__subheading">This is a bit about me</p>
+          </div>
+        </header>
+        <!-- Main Content Section -->
+        <section class="about-page__main-content-grid">
+          <section class="about-page__paragraph">
+            <h2 class="about-page__paragraph-heading">Who I am</h2>
+            <p class="about-page__paragraph-text">
+              Well that depends on who you ask.
+            </p>
+          </section>
+          <section class="about-page__paragraph">
+            <h2 class="about-page__paragraph-heading">Who I am</h2>
+            <p class="about-page__paragraph-text">
+              Well that depends on who you ask.
+            </p>
+          </section>
+          <section class="about-page__paragraph">
+            <h2 class="about-page__paragraph-heading">Who I am</h2>
+            <p class="about-page__paragraph-text">
+              Well that depends on who you ask.
+            </p>
+          </section>
+        </section>
+      </article>
+    </main>
+    <!-- global footer -->
+    <footer id="footer-placeholder"></footer>
+    <!-- article JS -->
+    <script type="module" src="./js/article.mjs"></script>
+  </body>
+</html>

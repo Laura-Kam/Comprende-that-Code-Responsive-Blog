@@ -9,7 +9,7 @@ export function loadHeader() {
       <ul class="header__nav-list">
         <li><a href="index.html" class="header__nav-link">Home</a></li>
         <li>
-          <a href="./blog-posts/about-me.html" class="header__nav-link"
+          <a href="../about.html" class="header__nav-link"
             >About</a
           >
         </li>
