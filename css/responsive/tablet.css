@@ -25,7 +25,6 @@
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        color: var(--color-white);
         gap: var(--gap-xxs);
         max-width: 90%;
     }

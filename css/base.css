@@ -1,10 +1,11 @@
 /* global styles */
 :root {
     /* Brand Palette */
-    --color-primary: #005A8F;   /* Deep Blue  */
+    --color-primary: #58544d;   /* Deep Blue  */
     --color-secondary: #7FB8D6; /* Light Blue  */
     --color-tertiary: #FFA89E;  /* Soft Coral  */
-    --color-cta: #E25334;       /* Darkened Coral */
+    --color-cta: #E25334;  
+    --color--hero-background: #ffa89e19;     /* Darkened Coral */
   
     /* Text and Backgrounds */
     --color-grey-light: #F5F5F5;   /* Backgrounds  */

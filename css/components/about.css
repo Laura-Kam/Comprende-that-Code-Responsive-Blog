@@ -25,7 +25,7 @@
     grid-template-columns: 1fr;
     gap: var(--space-sm);
 margin: 0 auto; 
-  border: 2px solid green;
+
   padding: var(--space-lg) var(--space-md) var(--space-xxl) var(--space-md);
 }
 
